@@ -1,7 +1,7 @@
 import pandas as pd
-class dataloading:
+class Loader:
     def __init__(self):
         pass
-    def dataloader(self,path):
-        return pd.read_csv(path)
-
+    def data_loader(self,path):
+        df=pd.read_csv(path)
+        return df
